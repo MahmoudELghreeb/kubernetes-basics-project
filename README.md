@@ -54,16 +54,16 @@ minikube ip
 # Open http://<minikube-ip>:30080 in your browser
 
 
-##🔒 Security Best Practices
-- Sensitive data stored in Secrets (base64 encoded)
-Non-sensitive configuration in ConfigMaps
+🔒 Security Best Practices
+- Sensitive data stored in Secrets (base63 encoded)
+- Non-sensitive configuration in ConfigMaps
 - Environment variables used to inject configuration into Pods
-##🎯 Key Features
+🎯 Key Features
 - Self-healing: Pods automatically restarted if failed
 - Scalable: Easy to scale replicas in deployment.yaml
 - Secure: Sensitive data separated from application code
 - Accessible: External access via NodePort service
-##💡 Future Improvements
+💡 Future Improvements
 - Add Health Checks and Liveness Probes
 - Implement Ingress for better routing
 - Use Helm for templating
